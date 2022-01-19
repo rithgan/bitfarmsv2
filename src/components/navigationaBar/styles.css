@@ -1,0 +1,14 @@
+.appbar {
+	background: transparent !important;
+	box-shadow: none !important;
+	border-bottom: 1px solid #00a8e8;
+}
+
+.navlinks {
+	text-decoration: none;
+	color: #fff;
+}
+
+.mobile-menu {
+	background: #0e1119 !important;
+}
