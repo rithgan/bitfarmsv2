@@ -1,0 +1,29 @@
+.accordion {
+	background: #0e1119 !important;
+	color: white !important;
+	margin: 1.6rem !important;
+	box-shadow: none !important;
+	border: 1px solid #0ca0d4;
+	border-radius: 12px !important;
+}
+
+.accordionSummary {
+	margin: 1.4rem !important;
+}
+
+.accordionDetails {
+	margin: 0 1.4rem !important;
+	border-top: 1px solid #0ca0d4 !important;
+}
+
+.stats {
+	align-self: center !important;
+	text-transform: uppercase !important;
+}
+
+span {
+	color: #9c9c9b !important;
+}
+p {
+	margin: 0px;
+}
