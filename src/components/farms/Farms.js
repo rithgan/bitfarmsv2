@@ -5,6 +5,7 @@ export default function Farms() {
 	return (
 		<div>
 			<PrimaryContainer />
+			<PrimaryContainer />
 		</div>
 	);
 }

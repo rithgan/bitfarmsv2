@@ -12,6 +12,13 @@ import MenuItem from "@mui/material/MenuItem";
 import ConnectButton from "../buttons/ConnectButton";
 import { Link } from "react-router-dom";
 import "./styles.css";
+import { styled } from "@mui/material/styles";
+
+const CustomMenu = styled(Menu)({
+  ".MuiPaper-root": {
+    backgroundColor: "#0e1119 !important",
+  },
+});
 
 const pages = [
   {
@@ -63,7 +70,7 @@ const ResponsiveAppBar = () => {
             >
               <MenuIcon />
             </IconButton>
-            <Menu
+            <CustomMenu
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
@@ -90,7 +97,7 @@ const ResponsiveAppBar = () => {
                   </Typography>
                 </MenuItem>
               ))}
-            </Menu>
+            </CustomMenu>
           </Box>
           <Typography
             variant="h6"

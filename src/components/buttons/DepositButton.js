@@ -3,8 +3,10 @@ import Button from "@mui/material/Button";
 
 export default function DepositButton() {
 	return (
-		<div style={{ alignSelf: "end" }}>
-			<Button variant="outlined">Deposit</Button>
-		</div>
+		// <div style={{ alignSelf: "end" }}>
+		<Button sx={{ alignSelf: "end" }} variant="outlined">
+			Deposit
+		</Button>
+		// </div>
 	);
 }
